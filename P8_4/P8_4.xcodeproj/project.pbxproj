@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		553E1961218F8D8500B4BD63 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 553E1960218F8D8500B4BD63 /* main.cpp */; };
+		553E1969218F8DA000B4BD63 /* account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 553E1967218F8DA000B4BD63 /* account.cpp */; };
+		553E196C218F8DA700B4BD63 /* checkings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 553E196A218F8DA700B4BD63 /* checkings.cpp */; };
+		553E196F218F8DAB00B4BD63 /* savings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 553E196D218F8DAB00B4BD63 /* savings.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		553E195D218F8D8500B4BD63 /* P8_4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = P8_4; sourceTree = BUILT_PRODUCTS_DIR; };
 		553E1960218F8D8500B4BD63 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		553E1967218F8DA000B4BD63 /* account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = account.cpp; sourceTree = "<group>"; };
+		553E1968218F8DA000B4BD63 /* account.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = account.hpp; sourceTree = "<group>"; };
+		553E196A218F8DA700B4BD63 /* checkings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = checkings.cpp; sourceTree = "<group>"; };
+		553E196B218F8DA700B4BD63 /* checkings.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = checkings.hpp; sourceTree = "<group>"; };
+		553E196D218F8DAB00B4BD63 /* savings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = savings.cpp; sourceTree = "<group>"; };
+		553E196E218F8DAB00B4BD63 /* savings.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = savings.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +66,12 @@
 		553E195F218F8D8500B4BD63 /* P8_4 */ = {
 			isa = PBXGroup;
 			children = (
+				553E1968218F8DA000B4BD63 /* account.hpp */,
+				553E1967218F8DA000B4BD63 /* account.cpp */,
+				553E196E218F8DAB00B4BD63 /* savings.hpp */,
+				553E196D218F8DAB00B4BD63 /* savings.cpp */,
+				553E196B218F8DA700B4BD63 /* checkings.hpp */,
+				553E196A218F8DA700B4BD63 /* checkings.cpp */,
 				553E1960218F8D8500B4BD63 /* main.cpp */,
 			);
 			path = P8_4;
@@ -120,6 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				553E1961218F8D8500B4BD63 /* main.cpp in Sources */,
+				553E196C218F8DA700B4BD63 /* checkings.cpp in Sources */,
+				553E1969218F8DA000B4BD63 /* account.cpp in Sources */,
+				553E196F218F8DAB00B4BD63 /* savings.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
