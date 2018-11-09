@@ -68,11 +68,11 @@ int main(int argc, const char * argv[]) {
      }
      */
     // So can call:
-    cout << "HH-mm-ss: " << rawtime->tm_hour << ":" << rawtime->tm_min << ":" << rawtime->tm_sec << endl;
+    cout << "hh-mm-ss: " << rawtime->tm_hour << ":" << rawtime->tm_min << ":" << rawtime->tm_sec << endl;
     this_thread::sleep_for(chrono::seconds(2));
     t0 = time(NULL);
     rawtime = localtime(&t0);
-    cout << "HH-mm-ss: " << rawtime->tm_hour << ":" << rawtime->tm_min << ":" << rawtime->tm_sec << endl;
+    cout << "hh-mm-ss: " << rawtime->tm_hour << ":" << rawtime->tm_min << ":" << rawtime->tm_sec << endl;
     // since the smallest unit is sec, as with dealing with #difftime, clock_t may be a better way to measure a difference in processing time.
     cout << "\n";
     

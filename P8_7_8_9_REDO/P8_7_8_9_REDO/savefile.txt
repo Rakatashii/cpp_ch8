@@ -1,0 +1,26 @@
+go to dentist|03\29\1994|08:30am
+go see Kelly|09\18\2001|12:15pm
+find Martin's file|09\18\2001|12:15pm
+help Chris|09\18\2001|12:15pm
+(OneTime) Pick up Jim|09\18\2001|12:15pm
+(OneTime) Grocery Store|09\18\2001|12:15pm
+help Dorathy|09\18\-1|12:15pm
+(OneTime) Pick up David|09\18\-1|12:15pm
+(OneTime) Grocery Store|09\18\-1|12:15pm
+find Jake's file|09\-1\-1|12:15pm
+help Chris|09\-1\-1|12:15pm
+(OneTime) Pick up David|09\-1\-1|12:15pm
+find Steve's file|09\-1\2001|12:15pm
+help Chris|09\-1\2001|12:15pm
+(OneTime) Pick up David|09\-1\2001|12:15pm
+(OneTime) Grocery Store|09\-1\2001|12:15pm
+(Monthly) find Jacob's file|09\00\0000|12:15pm
+(Monthly) get on app|09\00\0000|12:15pm
+(Monthly) Pick up Doran|09\00\0000|12:15pm
+(Monthly) find Jim's file|09\00\2001|12:15pm
+(Monthly) Apple appt|09\00\2001|12:15pm
+(Monthly) Pick up Margeret|09\00\2001|12:15pm
+(Monthly) Mall|09\00\2001|12:15pm
+(Monthly) Mall|10\00\2001|12:15pm
+(Monthly) Mall|11\00\2001|12:15pm
+(Monthly) Mall|12\00\2001|12:15pm
